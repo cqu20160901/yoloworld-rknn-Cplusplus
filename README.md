@@ -1,6 +1,6 @@
-# yolov9_rknn_Cplusplus
+# yoloworld_rknn_Cplusplus
 
-yolov9 瑞芯微 rknn 板端 C++部署，使用平台 rk3588。模型转换参考 [【yolov9 瑞芯微芯片rknn部署、地平线芯片Horizon部署、TensorRT部署】](https://blog.csdn.net/zhangqian_1/article/details/136321979)  。
+yoloworld 瑞芯微 rknn 板端 C++部署，使用平台 rk3588。模型转换参考 [【yolov9 瑞芯微芯片rknn部署、地平线芯片Horizon部署、TensorRT部署】](https://blog.csdn.net/zhangqian_1/article/details/136321979)  。
 
 模型文件比较大存放路径[【rknn模型链接】](https://github.com/cqu20160901/yolov9_rknn_Cplusplus/releases/tag/v1.0.0)
 
@@ -42,7 +42,11 @@ int main(int argc, char **argv)
 
 # 测试效果
 
+onnx 测试结果
+![test_onnx_result](https://github.com/cqu20160901/yoloworld-rknn-Cplusplus/assets/22290931/fe7d1d1e-ff16-4d98-bd71-28c1c56f3648)
 
+
+板端测试结果
 冒号“:”前的数子是coco的80类对应的类别，后面的浮点数是目标得分。（类别:得分）
 ![image](https://github.com/cqu20160901/yoloworld-rknn-Cplusplus/blob/main/examples/rknn_2.0_yoloworld_demo/test_result.jpg)
 
