@@ -1,6 +1,6 @@
 # yoloworld_rknn_Cplusplus
 
-yoloworld 瑞芯微 rknn 板端 C++部署，使用平台 rk3588。模型转换参考 [【yolov9 瑞芯微芯片rknn部署、地平线芯片Horizon部署、TensorRT部署】](https://blog.csdn.net/zhangqian_1/article/details/136321979)  。
+yoloworld 瑞芯微 rknn 板端 C++部署，使用平台 rk3588。模型转换参考 [【yolo_world 瑞芯微芯片rknn部署、地平线芯片Horizon部署、TensorRT部署】](https://blog.csdn.net/zhangqian_1/article/details/1385304869)  。
 
 ## 编译和运行
 
